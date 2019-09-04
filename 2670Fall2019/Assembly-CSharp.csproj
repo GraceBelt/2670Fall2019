@@ -110,8 +110,10 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineMixer.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
+    <Compile Include="Assets\Scripts\FloatData.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\TriggerEnter.cs" />
-    <Compile Include="Assets\Scripts\Update.cs" />
+    <Compile Include="Assets\Scripts\Walk.cs" />
     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Grace/Desktop/Github/Semesters/Fall2019/2670Fall2019/2670Fall2019/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
