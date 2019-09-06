@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Truck.ma
-//Last modified: Thu, Sep 05, 2019 11:57:53 PM
+//Last modified: Fri, Sep 06, 2019 12:00:04 AM
 //Codeset: 1252
 requires maya "2019";
 requires "mtoa" "3.1.2";
