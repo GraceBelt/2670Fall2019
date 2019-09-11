@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 [CreateAssetMenu]
-public class GameAction : MonoBehaviour
+public class GameAction : ScriptableObject
 {
     public UnityAction action;
 
