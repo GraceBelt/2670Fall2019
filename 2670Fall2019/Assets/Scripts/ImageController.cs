@@ -15,7 +15,7 @@ public class ImageController : MonoBehaviour
 
     public void UpdatedImageComponent()
     {
-        imageComponent.fillAmount += amount;
+       // imageComponent.fillAmount += amount;
     }
 
     public void UpdatedImageComponent(FloatData dataObj)
