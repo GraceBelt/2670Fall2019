@@ -57,18 +57,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ActionCalls.cs" />
-    <Compile Include="Assets\Scripts\AiWithNavMesh.cs" />
-    <Compile Include="Assets\Scripts\CharacterMover.cs" />
-    <Compile Include="Assets\Scripts\Coroutines.cs" />
-    <Compile Include="Assets\Scripts\FloatData.cs" />
-    <Compile Include="Assets\Scripts\FloatEvent.cs" />
-    <Compile Include="Assets\Scripts\GameAction.cs" />
-    <Compile Include="Assets\Scripts\GameActionHandler.cs" />
-    <Compile Include="Assets\Scripts\ImageController.cs" />
-    <Compile Include="Assets\Scripts\IntData.cs" />
-    <Compile Include="Assets\Scripts\TransformController.cs" />
-    <Compile Include="Assets\Scripts\TriggerEventBehaviour.cs" />
+    <Compile Include="Assets\All\Scripts\ActionCalls.cs" />
+    <Compile Include="Assets\All\Scripts\AiWithNavMesh.cs" />
+    <Compile Include="Assets\All\Scripts\CharacterMover.cs" />
+    <Compile Include="Assets\All\Scripts\Coroutines.cs" />
+    <Compile Include="Assets\All\Scripts\FloatData.cs" />
+    <Compile Include="Assets\All\Scripts\FloatEvent.cs" />
+    <Compile Include="Assets\All\Scripts\GameAction.cs" />
+    <Compile Include="Assets\All\Scripts\GameActionHandler.cs" />
+    <Compile Include="Assets\All\Scripts\ImageController.cs" />
+    <Compile Include="Assets\All\Scripts\IntData.cs" />
+    <Compile Include="Assets\All\Scripts\TransformController.cs" />
+    <Compile Include="Assets\All\Scripts\TriggerEventBehaviour.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Grace/Desktop/Github/EverySemester/Fall2019/DGM2670Fall2019/2670Fall2019/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
