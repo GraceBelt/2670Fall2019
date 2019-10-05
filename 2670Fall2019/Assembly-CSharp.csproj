@@ -61,7 +61,6 @@
     <Compile Include="Assets\All\Scripts\AiWithNavMesh.cs" />
     <Compile Include="Assets\All\Scripts\CharacterMover.cs" />
     <Compile Include="Assets\All\Scripts\Coroutines.cs" />
-    <Compile Include="Assets\All\Scripts\DoubleJump.cs" />
     <Compile Include="Assets\All\Scripts\FloatData.cs" />
     <Compile Include="Assets\All\Scripts\FloatEvent.cs" />
     <Compile Include="Assets\All\Scripts\GameAction.cs" />
