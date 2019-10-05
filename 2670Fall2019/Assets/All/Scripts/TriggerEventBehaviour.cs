@@ -8,10 +8,12 @@ public class TriggerEventBehaviour : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         TriggerEnterEvent.Invoke();
+        print("Enter");
     }
 
     private void OnTriggerExit(Collider other)
     {
         TriggerExitEvent.Invoke();
+        print("Exit");
     }
 }
