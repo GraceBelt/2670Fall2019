@@ -60,12 +60,17 @@
     <Compile Include="Assets\All\Scripts\ActionCalls.cs" />
     <Compile Include="Assets\All\Scripts\AiWithNavMesh.cs" />
     <Compile Include="Assets\All\Scripts\CharacterMover.cs" />
+    <Compile Include="Assets\All\Scripts\Coin.cs" />
     <Compile Include="Assets\All\Scripts\Collections.cs" />
     <Compile Include="Assets\All\Scripts\Coroutines.cs" />
+    <Compile Include="Assets\All\Scripts\Death.cs" />
+    <Compile Include="Assets\All\Scripts\EndGameAction.cs" />
+    <Compile Include="Assets\All\Scripts\Enemy.cs" />
     <Compile Include="Assets\All\Scripts\FloatData.cs" />
     <Compile Include="Assets\All\Scripts\FloatEvent.cs" />
     <Compile Include="Assets\All\Scripts\GameAction.cs" />
     <Compile Include="Assets\All\Scripts\GameActionHandler.cs" />
+    <Compile Include="Assets\All\Scripts\HealthBar.cs" />
     <Compile Include="Assets\All\Scripts\ImageController.cs" />
     <Compile Include="Assets\All\Scripts\IntData.cs" />
     <Compile Include="Assets\All\Scripts\TransformController.cs" />
