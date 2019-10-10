@@ -78,6 +78,7 @@
     <Compile Include="Assets\All\Scripts\PowerUpClass.cs" />
     <Compile Include="Assets\All\Scripts\TransformController.cs" />
     <Compile Include="Assets\All\Scripts\TriggerEventBehaviour.cs" />
+    <Compile Include="Assets\All\Scripts\WeaponClass.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Grace/Desktop/Github/EverySemester/Fall2019/DGM2670Fall2019/2670Fall2019/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
