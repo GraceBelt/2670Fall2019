@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[CreateAssetMenu]
 public class Collections : ScriptableObject
 {
    
@@ -18,7 +18,7 @@ public class Collections : ScriptableObject
         {
             if (currentObj == obj)
             {
-                
+                //Do work
             }
         }
     }
