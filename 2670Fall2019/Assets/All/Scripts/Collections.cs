@@ -18,7 +18,7 @@ public class Collections : ScriptableObject
         {
             if (currentObj == obj)
             {
-                //Do Work;
+                
             }
         }
     }
