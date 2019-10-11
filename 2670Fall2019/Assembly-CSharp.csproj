@@ -76,6 +76,7 @@
     <Compile Include="Assets\All\Scripts\IntData.cs" />
     <Compile Include="Assets\All\Scripts\PlayerClass.cs" />
     <Compile Include="Assets\All\Scripts\PowerUpClass.cs" />
+    <Compile Include="Assets\All\Scripts\Random.cs" />
     <Compile Include="Assets\All\Scripts\TransformController.cs" />
     <Compile Include="Assets\All\Scripts\TriggerEventBehaviour.cs" />
     <Compile Include="Assets\All\Scripts\WeaponClass.cs" />
