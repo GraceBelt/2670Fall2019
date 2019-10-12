@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    public GameObject Player;
-
     public void Start()
     {
         
