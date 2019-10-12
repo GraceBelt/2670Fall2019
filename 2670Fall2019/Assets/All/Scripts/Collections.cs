@@ -10,7 +10,7 @@ public class Collections : ScriptableObject
    
     public List<Object> objectList;
 
-    public List<FloatData> FloatDatas;
+    public List<FloatData> floatData;
 
     public List<GameObject> GameObjects;
 
