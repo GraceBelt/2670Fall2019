@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Object = UnityEngine.Object;
+
 [CreateAssetMenu]
 public class Collections : ScriptableObject
 {
@@ -18,7 +21,7 @@ public class Collections : ScriptableObject
         {
             if (currentObj == obj)
             {
-                //Do work
+                Console.WriteLine("Obj");
             }
         }
     }
