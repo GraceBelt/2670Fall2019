@@ -21,7 +21,7 @@ public class Collections : ScriptableObject
         {
             if (currentObj == obj)
             {
-                Console.WriteLine("Obj");
+               
             }
         }
     }
