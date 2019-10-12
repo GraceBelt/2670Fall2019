@@ -4,10 +4,5 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    public void Start()
-    {
-        
-    }
-
-
+    public Collections Collect;
 }
