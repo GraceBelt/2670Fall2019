@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\All\Scripts\ActionCalls.cs" />
     <Compile Include="Assets\All\Scripts\AiWithNavMesh.cs" />
+    <Compile Include="Assets\All\Scripts\AnimController.cs" />
     <Compile Include="Assets\All\Scripts\Bullet.cs" />
     <Compile Include="Assets\All\Scripts\CharacterMover.cs" />
     <Compile Include="Assets\All\Scripts\Coin.cs" />
@@ -79,7 +80,7 @@
     <Compile Include="Assets\All\Scripts\Random.cs" />
     <Compile Include="Assets\All\Scripts\TransformController.cs" />
     <Compile Include="Assets\All\Scripts\TriggerEventBehaviour.cs" />
-    <Compile Include="Assets\All\Scripts\UpdatedEvent.cs" />
+    <Compile Include="Assets\All\Scripts\UpdateEvent.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Grace/Desktop/Github/EverySemester/Fall2019/DGM2670Fall2019/2670Fall2019/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
