@@ -6,7 +6,7 @@ public class Coin : MonoBehaviour
 {
     public Collections Collect;
 
-    private 
+    private void Start()
     {
         
     }
