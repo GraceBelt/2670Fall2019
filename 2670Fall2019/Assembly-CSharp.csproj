@@ -66,6 +66,7 @@
     <Compile Include="Assets\All\Scripts\Collections.cs" />
     <Compile Include="Assets\All\Scripts\Coroutines.cs" />
     <Compile Include="Assets\All\Scripts\Death.cs" />
+    <Compile Include="Assets\All\Scripts\Debugger.cs" />
     <Compile Include="Assets\All\Scripts\EndGameClass.cs" />
     <Compile Include="Assets\All\Scripts\Enemy.cs" />
     <Compile Include="Assets\All\Scripts\FloatData.cs" />
