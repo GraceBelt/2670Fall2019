@@ -9,4 +9,4 @@ public class Coin : MonoBehaviour
         //TriggerEnterEvent.Invoke();
     }
 }
-}
+
