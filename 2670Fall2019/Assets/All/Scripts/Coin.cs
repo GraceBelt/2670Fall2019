@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Events;
-using
+﻿using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
@@ -11,7 +6,7 @@ public class Coin : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        TriggerEnterEvent.Invoke();
+        //TriggerEnterEvent.Invoke();
     }
 }
 }
