@@ -76,6 +76,7 @@
     <Compile Include="Assets\All\Scripts\HealthBar.cs" />
     <Compile Include="Assets\All\Scripts\ImageController.cs" />
     <Compile Include="Assets\All\Scripts\IntData.cs" />
+    <Compile Include="Assets\All\Scripts\Jump.cs" />
     <Compile Include="Assets\All\Scripts\MouseEvent.cs" />
     <Compile Include="Assets\All\Scripts\Movement.cs" />
     <Compile Include="Assets\All\Scripts\PlayerClass.cs" />

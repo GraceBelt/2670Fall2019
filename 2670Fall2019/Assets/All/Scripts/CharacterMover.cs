@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMover : MonoBehaviour
 {
-    public float moveSpeed = 10f, jumpSpeed = 30f, gravity = 3f;
+   /* public float moveSpeed = 10f, jumpSpeed = 30f, gravity = 3f;
     private CharacterController controller;
     private Vector3 position;
     public IntData jumpData;
@@ -32,5 +32,5 @@ public class CharacterMover : MonoBehaviour
             position.y = 0;
         }
         controller.Move(position * Time.deltaTime);
-    }
+    }*/
 }
