@@ -18,7 +18,6 @@ public class IntData : ScriptableObject
         value += number;
     }
 
-
     public void UpdateToNumber(int number)
     {
         value = number;

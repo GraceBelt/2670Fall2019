@@ -5,10 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class Jump : MonoBehaviour
 {
-  public float jumpSpeed = 10f, gravity = 10f;
+  public float jumpSpeed = 35f, gravity = 1f;
   private CharacterController _controller;
   private Vector3 position;
-  public IntData jumpData;
 
   void Start()
   {
@@ -18,16 +17,14 @@ public class Jump : MonoBehaviour
   void Update()
   {
     position.y -= gravity;
-    if (Input.GetKeyDown(KeyCode.Space) && jumpData.value < jumpData.maxValue)
+    if (Input.GetKeyDown(KeyCode.Space))
     {
       position.y = jumpSpeed;
-      jumpData.value++;
     }
     else if (_controller.isGrounded)
     {
       position.y = 0;
     }
-
     _controller.Move(position * Time.deltaTime);
   }
 }

@@ -61,10 +61,12 @@
     <Compile Include="Assets\All\Scripts\AiWithNavMesh.cs" />
     <Compile Include="Assets\All\Scripts\AnimController.cs" />
     <Compile Include="Assets\All\Scripts\Bullet.cs" />
-    <Compile Include="Assets\All\Scripts\CharacterMover.cs" />
+    <Compile Include="Assets\All\Scripts\Cam.cs" />
+    <Compile Include="Assets\All\Scripts\CinemachineController.cs" />
     <Compile Include="Assets\All\Scripts\Coin.cs" />
     <Compile Include="Assets\All\Scripts\Collections.cs" />
     <Compile Include="Assets\All\Scripts\Coroutines.cs" />
+    <Compile Include="Assets\All\Scripts\Damage.cs" />
     <Compile Include="Assets\All\Scripts\Death.cs" />
     <Compile Include="Assets\All\Scripts\Debugger.cs" />
     <Compile Include="Assets\All\Scripts\EndGameClass.cs" />
@@ -80,8 +82,10 @@
     <Compile Include="Assets\All\Scripts\MouseEvent.cs" />
     <Compile Include="Assets\All\Scripts\Movement.cs" />
     <Compile Include="Assets\All\Scripts\PlayerClass.cs" />
+    <Compile Include="Assets\All\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\All\Scripts\PowerUpClass.cs" />
     <Compile Include="Assets\All\Scripts\Random.cs" />
+    <Compile Include="Assets\All\Scripts\Score.cs" />
     <Compile Include="Assets\All\Scripts\TransformController.cs" />
     <Compile Include="Assets\All\Scripts\TriggerEventBehaviour.cs" />
     <Compile Include="Assets\All\Scripts\UpdateEvent.cs" />
@@ -99,6 +103,12 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/Grace/Desktop/Github/EverySemester/Fall2019/DGM2670Fall2019/2670Fall2019/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/Grace/Desktop/Github/EverySemester/Fall2019/DGM2670Fall2019/2670Fall2019/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/Grace/Desktop/Github/EverySemester/Fall2019/DGM2670Fall2019/2670Fall2019/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
