@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerUpClass : MonoBehaviour
+public class Health : MonoBehaviour
 {
-    public void EndPowerUp()
+    public IntData intData;
+
+    private void Start()
     {
-        print("End PowerUp");
+        
     }
 }
