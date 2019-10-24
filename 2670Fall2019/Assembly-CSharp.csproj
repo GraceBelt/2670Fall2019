@@ -60,26 +60,35 @@
     <Compile Include="Assets\All\Scripts\ActionCalls.cs" />
     <Compile Include="Assets\All\Scripts\AiWithNavMesh.cs" />
     <Compile Include="Assets\All\Scripts\AnimController.cs" />
+    <Compile Include="Assets\All\Scripts\CharacterMover.cs" />
+    <Compile Include="Assets\All\Scripts\CinemachineController.cs" />
     <Compile Include="Assets\All\Scripts\Collections.cs" />
     <Compile Include="Assets\All\Scripts\Coroutines.cs" />
+    <Compile Include="Assets\All\Scripts\CreateSOData.cs" />
     <Compile Include="Assets\All\Scripts\Debugger.cs" />
     <Compile Include="Assets\All\Scripts\EndGameClass.cs" />
+    <Compile Include="Assets\All\Scripts\EventListening.cs" />
     <Compile Include="Assets\All\Scripts\FloatData.cs" />
     <Compile Include="Assets\All\Scripts\FloatEvent.cs" />
     <Compile Include="Assets\All\Scripts\GameAction.cs" />
     <Compile Include="Assets\All\Scripts\GameActionHandler.cs" />
     <Compile Include="Assets\All\Scripts\ImageController.cs" />
+    <Compile Include="Assets\All\Scripts\Instancer.cs" />
     <Compile Include="Assets\All\Scripts\IntData.cs" />
+    <Compile Include="Assets\All\Scripts\MonoEventBehaviours.cs" />
     <Compile Include="Assets\All\Scripts\MouseEvent.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Death.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Enemy.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Health.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Jump.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Movement.cs" />
+    <Compile Include="Assets\All\Scripts\MyScripts\Score.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Weapon.cs" />
     <Compile Include="Assets\All\Scripts\TransformController.cs" />
     <Compile Include="Assets\All\Scripts\TriggerEventBehaviour.cs" />
     <Compile Include="Assets\All\Scripts\UpdateEvent.cs" />
+    <Compile Include="Assets\All\Scripts\UpdateEvent1.cs" />
+    <Compile Include="Assets\All\Scripts\Vector3Data.cs" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/Grace/Desktop/Github/EverySemester/Fall2019/DGM2670Fall2019/2670Fall2019/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>

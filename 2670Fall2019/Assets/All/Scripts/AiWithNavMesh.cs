@@ -29,4 +29,21 @@ public class AiWithNavMesh : MonoBehaviour
     {
         agent.destination = destination.position;
     }
+    
+    public float Speed { get; set; }
+
+    public void Run()
+    {
+        //Do Work
+    }
+
+    public void Run(float f)
+    {
+        //Do Work
+    }
+
+    public void Test()
+    {
+        //Do Work
+    }
 }
