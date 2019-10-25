@@ -67,7 +67,6 @@
     <Compile Include="Assets\All\Scripts\CreateSOData.cs" />
     <Compile Include="Assets\All\Scripts\Debugger.cs" />
     <Compile Include="Assets\All\Scripts\EndGameClass.cs" />
-    <Compile Include="Assets\All\Scripts\EventListening.cs" />
     <Compile Include="Assets\All\Scripts\FloatData.cs" />
     <Compile Include="Assets\All\Scripts\FloatEvent.cs" />
     <Compile Include="Assets\All\Scripts\GameAction.cs" />
