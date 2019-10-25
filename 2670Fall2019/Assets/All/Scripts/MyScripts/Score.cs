@@ -1,16 +1,33 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Data.Common;
+using System.Security.Cryptography;
+using Cinemachine;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    public Text score;
-    public IntData intData;
-    void Start()
-    {
-        score.GetComponent<Text>();
-    }
-    
+     public int value;
+     public Text score;
+     public GameObject other;
+     public FloatData floatData;
+     
+     void Start()
+     {
+         score.text = "Score: " + value;
+         Amount();
+     }
+
+     private void Amount()
+     {
+         floatData.UpdateValue();
+     }
+     private void OnTriggerEnter(Collider other)
+     {
+          Destroy(gameObject);
+          Start();
+     }
+     
 }

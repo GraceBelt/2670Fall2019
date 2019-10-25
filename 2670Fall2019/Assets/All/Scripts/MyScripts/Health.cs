@@ -5,9 +5,5 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public IntData intData;
-
-    private void Start()
-    {
-        
-    }
+    
 }
