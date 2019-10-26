@@ -17,13 +17,8 @@ public class Score : MonoBehaviour
      void Start()
      {
          score.text = "Score: " + value;
-         Amount();
      }
-
-     private void Amount()
-     {
-         floatData.UpdateValue();
-     }
+     
      private void OnTriggerEnter(Collider other)
      {
           Destroy(gameObject);
