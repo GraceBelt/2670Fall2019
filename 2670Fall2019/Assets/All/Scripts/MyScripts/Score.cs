@@ -12,6 +12,7 @@ public class Score : MonoBehaviour
      public int value = 0;
      public Text score;
      public GameObject other;
+     public IntData IntData;
 
      void Start()
      {
