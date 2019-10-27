@@ -18,6 +18,10 @@ public class Score : MonoBehaviour
      {
          score.text = "Score: " + value;
      }
+
+     void Update()
+     {
+     }
      
      private void OnTriggerEnter(Collider other)
      {
