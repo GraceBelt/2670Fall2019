@@ -12,22 +12,16 @@ public class Score : MonoBehaviour
      public int value = 0;
      public Text score;
      public GameObject other;
-     public FloatData floatData;
 
-     void Start()
+    /* void Start(int amount)
      {
-         score.text = "Score: " + value;
+          score.text = "Score: " + value;
+          value += amount;
      }
 
-     void Update()
-     {
-     }
-     
      private void OnTriggerEnter(Collider other)
      {
-         Destroy(gameObject);
-         Start();
-     }
-     
-     
+          Destroy(gameObject);
+          Start();
+     }*/
 }
