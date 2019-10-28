@@ -309,7 +309,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264305694}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -1316,7 +1316,7 @@ GameObject:
   - component: {fileID: 1915188935}
   - component: {fileID: 1915188934}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1334,6 +1334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d956e8a87d5ace24ebc982563baf53a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 264305695}
 --- !u!65 &1915188935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1364,7 +1365,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4736976a5797e014fabbd9fa75a375ac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
