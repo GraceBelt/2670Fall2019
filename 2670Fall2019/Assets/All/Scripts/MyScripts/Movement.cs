@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 10f;
     private CharacterController controller;
     private Vector3 position;
+    
 
     void Start()
     {

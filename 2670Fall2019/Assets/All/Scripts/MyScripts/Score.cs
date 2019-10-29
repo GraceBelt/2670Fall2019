@@ -9,19 +9,18 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-     public int value = 0;
+     public static int value;
      public Text score;
-     public GameObject other;
+     public GameObject Player;
 
-    /* void Start(int amount)
+     void Start()
      {
-          score.text = "Score: " + value;
-          value += amount;
+          score.text = "Score: " + value; 
      }
-
-     private void OnTriggerEnter(Collider other)
+     private void OnTriggerEnter(Collider Player)
      {
+          value++;
           Destroy(gameObject);
           Start();
-     }*/
+     }
 }

@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 162825664}
   - component: {fileID: 162825663}
   - component: {fileID: 162825665}
+  - component: {fileID: 162825666}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -251,6 +252,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpSpeed: 35
   gravity: 1
+--- !u!114 &162825666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162825658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3f34fba82c2be41b5d38e8c84c40b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 3930664705521437145, guid: e0bea88454f0df14ebadf7bdaa2055d0, type: 3}
+  Speed: 10
 --- !u!1 &200171129
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,7 +276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200171131}
   m_Layer: 0
-  m_Name: Collective
+  m_Name: Score OBJ
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,7 +295,6 @@ Transform:
   m_Children:
   - {fileID: 1391987819}
   - {fileID: 279718335}
-  - {fileID: 1051701303}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -309,7 +323,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264305694}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -953,81 +967,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732063324}
   m_CullTransparentMesh: 0
---- !u!4 &1051701303 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1107365284}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1107365284
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 200171131}
-    m_Modifications:
-    - target: {fileID: 4939018964877152135, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_Name
-      value: Earn 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -17.880001
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.010551
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939018964877152134, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c37a7067dd3e12b4d9a1d5841c5700d5, type: 3}
 --- !u!1001 &1202694310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1105,6 +1044,11 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 712210665}
+    - target: {fileID: 4939018964877152130, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
+        type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 162825658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c37a7067dd3e12b4d9a1d5841c5700d5, type: 3}
 --- !u!1 &1219710085
@@ -1316,8 +1260,8 @@ GameObject:
   - component: {fileID: 1915188935}
   - component: {fileID: 1915188934}
   m_Layer: 0
-  m_Name: Death
-  m_TagString: Untagged
+  m_Name: Death OBJ
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1331,10 +1275,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1915188933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d956e8a87d5ace24ebc982563baf53a1, type: 3}
+  m_Script: {fileID: 11500000, guid: f0783b93f653c1e48b132bc776eb69df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gameOver: {fileID: 264305695}
+  Player: {fileID: 162825658}
 --- !u!65 &1915188935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1561,6 +1506,11 @@ PrefabInstance:
     - target: {fileID: 4939018964877152130, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
         type: 3}
       propertyPath: other
+      value: 
+      objectReference: {fileID: 162825658}
+    - target: {fileID: 4939018964877152130, guid: c37a7067dd3e12b4d9a1d5841c5700d5,
+        type: 3}
+      propertyPath: Player
       value: 
       objectReference: {fileID: 162825658}
     m_RemovedComponents: []
