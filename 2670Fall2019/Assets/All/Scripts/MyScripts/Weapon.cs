@@ -18,6 +18,5 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
-        weapon.transform.forward * 
     }
 }
