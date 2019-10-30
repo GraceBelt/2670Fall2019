@@ -1,23 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Cinemachine;
 using UnityEngine;
-using UnityEngine.Experimental.PlayerLoop;
+using UnityEngine.Tilemaps;
 
 public class Weapon : MonoBehaviour
 {
-    public GameObject weapon;
-    public float Speed = 10f;
-    private Vector3 position;
-    void Start()
+    public Rigidbody bullet;
+    public Transform bulletInstant;
+    void Update()
     {
-       if(Input.GetKeyDown(KeyCode.D))
-       {
-           Shoot();
-       }
+        Shoot();
     }
 
     void Shoot()
     {
-        
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+           Instantiate(bullet).AddForce(bulletInstant.forward * 5000);
+           bulletInstant.Rotate(1, 0, 0);
+        }
     }
 }
