@@ -4,6 +4,5 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public IntData intData;
-    
+    public IntData data;
 }
