@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 [CreateAssetMenu]
 public class IntData : ScriptableObject
 {
@@ -17,7 +16,8 @@ public class IntData : ScriptableObject
     {
         value += number;
     }
-
+    
+    
     public void UpdateToNumber(int number)
     {
         value = number;

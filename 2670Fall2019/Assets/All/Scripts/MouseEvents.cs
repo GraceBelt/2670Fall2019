@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class MouseEvent : MonoBehaviour
+public class MouseEvents : MonoBehaviour
 {
-    // Start is called before the first frame update
     public UnityEvent MouseDownEvent;
     private void OnMouseDown()
     {
         MouseDownEvent.Invoke();
     }
 }
-

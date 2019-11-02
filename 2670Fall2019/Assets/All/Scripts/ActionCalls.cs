@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,20 +9,20 @@ public class ActionCalls : MonoBehaviour
     private Vector3 location, rotations, scales;
     private List<UnityAction> actions;
     private int i;
-
+	
     private void Awake()
     {
-        actions = new List<UnityAction> { OnMove, OnRotate, OnScale };
+        actions = new List<UnityAction> {OnMove, OnRotate, OnScale};
     }
     private void OnMouseDown()
     {
-        if (i == actions.Count - 1)
+        if (i == actions.Count-1)
             i = 0;
         else
             i++;
     }
 
-    private void Update()
+    private void Update ()
     {
         actions[i]();
     }
@@ -40,7 +41,7 @@ public class ActionCalls : MonoBehaviour
 
     private void OnScale()
     {
-        scales.Set(scaleSpeed, scaleSpeed, scaleSpeed);
+        scales.Set(scaleSpeed,scaleSpeed,scaleSpeed);
         transform.localScale += scales;
     }
 }

@@ -13,7 +13,7 @@ public class Score : MonoBehaviour
      public Text score;
      public GameObject Player;
 
-     void Start()
+     void scoreText()
      {
           score.text = "Score: " + value; 
      }
@@ -21,6 +21,6 @@ public class Score : MonoBehaviour
      {
           value++;
           Destroy(gameObject);
-          Start();
+          scoreText();
      }
 }

@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
-using Object = UnityEngine.Object;
-
 [CreateAssetMenu]
 public class Collections : ScriptableObject
 {
-   
     public List<Object> objectList;
 
-    public List<FloatData> floatData;
+    public List<FloatData> FloatDatas;
 
     public List<GameObject> GameObjects;
 
@@ -21,7 +18,7 @@ public class Collections : ScriptableObject
         {
             if (currentObj == obj)
             {
-               //Do Work
+                //Do Work;
             }
         }
     }

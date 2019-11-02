@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a109e8ad81ff83a41b03eaae70c72d67, type: 3}
-  m_Name: Collections
+  m_Script: {fileID: 11500000, guid: cdbc20efe30229b4dbeddee30be49315, type: 3}
+  m_Name: PlayerHealth
   m_EditorClassIdentifier: 
-  objectList: []
-  FloatDatas: []
-  GameObjects: []
