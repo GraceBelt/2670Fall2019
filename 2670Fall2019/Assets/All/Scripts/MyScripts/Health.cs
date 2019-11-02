@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class Health : MonoBehaviour
 {
-    public int health = 3;
+    public static int health = 3;
     public Text healthText;
 
-    public void Text()
+    private void valueHealth()
     {
         healthText.text = "Health: " + health;
     }
-    
 }

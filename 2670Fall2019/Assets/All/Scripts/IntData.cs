@@ -5,7 +5,7 @@ using UnityEngine;
 public class IntData : ScriptableObject
 {
     public int value = 0;
-    public int maxValue = 2;
+    public int maxValue = 3;
 
     public void UpdateToMaxValue()
     {
