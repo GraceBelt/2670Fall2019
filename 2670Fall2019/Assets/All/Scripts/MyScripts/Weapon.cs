@@ -15,8 +15,9 @@ public class Weapon : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.K))
         {
-           Instantiate(bullet).AddForce(bulletInstant.forward * 5000);
-           bulletInstant.Rotate(1, 0, 0);
+            Rigidbody instant;
+            instant = Instantiate(bullet, bulletInstant.position, bulletInstant.rotation) as Rigidbody;
+            instant.AddForce(bulletInstant.forward * 5000);
         }
     }
 }
