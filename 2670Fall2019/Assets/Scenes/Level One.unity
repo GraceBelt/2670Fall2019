@@ -285,8 +285,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b7012557bd87d4e8de1c4481bd42c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
-  healthText: {fileID: 732063326}
 --- !u!1 &200171129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,7 +1010,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Health: \n"
+  m_Text: 'Health: 3
+
+'
 --- !u!222 &732063327
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1264,7 +1264,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 162825658}
-  value: {fileID: 0}
+  healthText: {fileID: 732063326}
+  gameOver: {fileID: 0}
+  healthValue: 3
+  overHealth: 0
 --- !u!65 &1458294312
 BoxCollider:
   m_ObjectHideFlags: 0
