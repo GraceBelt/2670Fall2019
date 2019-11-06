@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-     public int value;
+     public static int value;
      public Text score;
      public GameObject Player;
 

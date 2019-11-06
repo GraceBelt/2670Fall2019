@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using Cinemachine;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
-
-public class Enemy : MonoBehaviour
+public class enemyDamage : MonoBehaviour
 {
     public GameObject Player;
     public Text healthText;
-    public Text gameOver;
     public float healthValue = 3;
     public float overHealth = 0;
 
@@ -21,12 +16,20 @@ public class Enemy : MonoBehaviour
 
     private void GameOver()
     {
-        
+        if (healthValue > overHealth)
+        {
+            Debug.Log("Damage");
+        }
+        else
+        {
+            Destroy(Player.gameObject);
+        }
     }
 
     private void OnTriggerEnter(Collider Player)
     {
-        healthValue--;//Damage
+        healthValue--;
         Text();
+        GameOver();
     }
 }
