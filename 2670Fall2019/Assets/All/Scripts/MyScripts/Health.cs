@@ -15,7 +15,7 @@ public class Health : MonoBehaviour
         healthText.text = "Health: " + healthValue;
     }
 
-    private void GameOver()
+    private void Damage()
     {
         if (healthValue > overHealth)
         {
@@ -31,6 +31,6 @@ public class Health : MonoBehaviour
     {
         healthValue--;
         Text();
-        GameOver();
+        Damage();
     }
 }
