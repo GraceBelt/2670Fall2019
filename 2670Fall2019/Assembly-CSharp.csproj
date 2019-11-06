@@ -77,8 +77,7 @@
     <Compile Include="Assets\All\Scripts\MonoEventBehaviours.cs" />
     <Compile Include="Assets\All\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\EndGame.cs" />
-    <Compile Include="Assets\All\Scripts\MyScripts\enemyDamage.cs" />
-    <Compile Include="Assets\All\Scripts\MyScripts\enemyMovement.cs" />
+    <Compile Include="Assets\All\Scripts\MyScripts\Enemy.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\GameState.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Health.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Jump.cs" />

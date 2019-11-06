@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class EndGame : MonoBehaviour
 {
+    //Game Over Script
     public Text gameOver;
     public GameObject Player;
     public Image restartButton;
