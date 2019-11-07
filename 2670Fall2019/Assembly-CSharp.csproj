@@ -84,6 +84,7 @@
     <Compile Include="Assets\All\Scripts\MyScripts\Movement.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Score.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Weapon.cs" />
+    <Compile Include="Assets\All\Scripts\MyScripts\WinGame.cs" />
     <Compile Include="Assets\All\Scripts\Spawn.cs" />
     <Compile Include="Assets\All\Scripts\TransformController.cs" />
     <Compile Include="Assets\All\Scripts\TriggerEventBehaviour.cs" />

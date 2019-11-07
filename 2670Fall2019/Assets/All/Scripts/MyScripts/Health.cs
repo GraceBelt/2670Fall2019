@@ -9,6 +9,12 @@ public class Health : MonoBehaviour
     public Text healthText;
     public float healthValue = 3;
     public float overHealth = 0;
+    
+    public Image restartButton;
+    public Text restart;
+    public Image menuButton;
+    public Text menuText;
+    public Text gameOver;
 
     private void Text()
     {
@@ -24,7 +30,17 @@ public class Health : MonoBehaviour
         else
         {
             Destroy(Player.gameObject);
+            gameOverText();
         }
+    }
+
+    private void gameOverText()
+    {
+        gameOver.GetComponent<Text>().enabled = true;
+        restartButton.GetComponent<Image>().enabled = true;
+        restart.GetComponent<Text>().enabled = true;
+        menuButton.GetComponent<Image>().enabled = true;
+        menuText.GetComponent<Text>().enabled = true;
     }
 
     private void OnTriggerEnter(Collider Player)
