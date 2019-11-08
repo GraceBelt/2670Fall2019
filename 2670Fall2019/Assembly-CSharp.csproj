@@ -78,11 +78,11 @@
     <Compile Include="Assets\All\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\EndGame.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Enemy.cs" />
-    <Compile Include="Assets\All\Scripts\MyScripts\GameState.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Health.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Jump.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Movement.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Score.cs" />
+    <Compile Include="Assets\All\Scripts\MyScripts\SwitchScene.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Weapon.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\WinGame.cs" />
     <Compile Include="Assets\All\Scripts\Spawn.cs" />
