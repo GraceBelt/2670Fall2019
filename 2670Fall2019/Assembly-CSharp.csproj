@@ -82,6 +82,7 @@
     <Compile Include="Assets\All\Scripts\MyScripts\Jump.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Movement.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\PlayerMovement.cs" />
+    <Compile Include="Assets\All\Scripts\MyScripts\Purchase.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Score.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\SwitchScene.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Weapon.cs" />
