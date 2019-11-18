@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class Jump : MonoBehaviour
 {
-  public float jumpSpeed = 35f, gravity = 1f;
+  public float jumpSpeed = 5f, gravity = 1f;
   private CharacterController _controller;
   private Vector3 position;
 

@@ -80,7 +80,6 @@
     <Compile Include="Assets\All\Scripts\MyScripts\Enemy.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Health.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Jump.cs" />
-    <Compile Include="Assets\All\Scripts\MyScripts\Movement.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\PlayerMovement.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Purchase.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Score.cs" />
