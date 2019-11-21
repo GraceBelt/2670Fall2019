@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Coin
   - Death
+  - Platform
+  - Platforms
   layers:
   - Default
   - TransparentFX
