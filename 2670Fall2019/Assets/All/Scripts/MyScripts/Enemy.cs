@@ -1,18 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public CharacterController Player = null;
+    private NavMeshAgent target = null;
+
     void Start()
     {
-        
+        target = this.GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        target.SetDestination((Player.transform.position));
     }
 }
+
+

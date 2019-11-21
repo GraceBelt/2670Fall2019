@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
-    //Player's health
+    //This is Player Health.
     public GameObject Player;
     public Text healthText;
-    public float healthValue = 3;
+    public float healthValue = 5;
     public float overHealth = 0;
     
     public Image restartButton;
@@ -21,7 +21,7 @@ public class Health : MonoBehaviour
         healthText.text = "Health: " + healthValue;
     }
 
-    private void Damage()
+    private void Damage() //The Enemy will damage the Player. 
     {
         if (healthValue > overHealth)
         {
