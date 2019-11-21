@@ -1,23 +1,22 @@
-﻿using Cinemachine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
 public class Weapon : MonoBehaviour
 {
-    public Rigidbody bullet;
-    public Transform bulletInstant;
+    public Rigidbody weapon;
+
     void Update()
     {
-        Shoot();
+        Fire();
     }
-
-    void Shoot()
+    private void Fire()
     {
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKey(KeyCode.N))
         {
-            Rigidbody instant;
-            instant = Instantiate(bullet, bulletInstant.position, bulletInstant.rotation) as Rigidbody;
-            instant.AddForce(bulletInstant.forward * 5000);
+            Instantiate(weapon).AddForce(0,0,1);
+            print("Fire");
         }
     }
 }
