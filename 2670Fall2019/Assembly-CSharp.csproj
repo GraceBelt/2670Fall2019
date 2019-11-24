@@ -81,6 +81,7 @@
     <Compile Include="Assets\All\Scripts\MyScripts\Enemy.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Health.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Jump.cs" />
+    <Compile Include="Assets\All\Scripts\MyScripts\MovingRight.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\PlayerMovement.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\PowerUp.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Score.cs" />
