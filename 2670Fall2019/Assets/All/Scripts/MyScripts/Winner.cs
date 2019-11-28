@@ -9,22 +9,21 @@ public class Winner : MonoBehaviour
     public Text YouWin;
     public Text NiceTry;
     public Text Score;
-    public int WinScore = 25;
+    public int WinScore;
 
     void Update()
     {
         Score.text = "Score: " + WinScore;
     }
-
     void WinGame()
     {
-        if (WinScore > 0)
+        if (WinScore> 0)
         {
             YouWin.GetComponent<Text>().enabled = true;
         }
         else
         {
-            NiceTry.GetComponent<Text>().enabled = false;
+            NiceTry.GetComponent<Text>().enabled = true;
         }
     }
 
