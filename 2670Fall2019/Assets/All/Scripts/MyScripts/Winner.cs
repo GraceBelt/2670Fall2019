@@ -20,6 +20,7 @@ public class Winner : MonoBehaviour
         if (WinScore> 0)
         {
             YouWin.GetComponent<Text>().enabled = true;
+            
         }
         else
         {
