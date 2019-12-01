@@ -5,5 +5,6 @@ using UnityEngine.Events;
 [CreateAssetMenu(menuName = "")]
 public class unityAction : MonoBehaviour
 {
+    
 
 }

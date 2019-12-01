@@ -9,6 +9,7 @@ public class Winner : MonoBehaviour
     public Text YouWin;
     public Text NiceTry;
     public Text Score;
+    public int Greater = 25;
     public int WinScore;
 
     void Update()
@@ -17,10 +18,10 @@ public class Winner : MonoBehaviour
     }
     void WinGame()
     {
-        if (WinScore> 0)
+        if (Greater > 0)
         {
             YouWin.GetComponent<Text>().enabled = true;
-            
+            Greater
         }
         else
         {
