@@ -2655,7 +2655,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552600956}
   m_LocalRotation: {x: -0.006425948, y: -0.7078732, z: -0.0016381785, w: 0.7063084}
-  m_LocalPosition: {x: 12.46, y: 1.54, z: 6.9809995}
+  m_LocalPosition: {x: 12.46, y: 1.54, z: -0.8390007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1080478867}
@@ -6292,6 +6292,7 @@ MonoBehaviour:
   YouWin: {fileID: 1351066238}
   NiceTry: {fileID: 561552197}
   Score: {fileID: 1101330057}
+  Greater: 25
   WinScore: 0
 --- !u!1 &1101330055
 GameObject:
@@ -8064,7 +8065,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477643376}
   m_LocalRotation: {x: -0.006425948, y: -0.7078732, z: -0.0016381785, w: 0.7063084}
-  m_LocalPosition: {x: 12.46, y: 1.54, z: 6.9809995}
+  m_LocalPosition: {x: 12.46, y: 1.54, z: -0.8390007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11565,7 +11566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447977016980082511}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.000014865, y: 0.89, z: 7.3}
+  m_LocalPosition: {x: -0.000014865, y: 0.89, z: -0.52}
   m_LocalScale: {x: 102.41866, y: 102.41866, z: 102.41866}
   m_Children:
   - {fileID: 931021366}
