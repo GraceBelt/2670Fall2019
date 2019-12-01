@@ -21,7 +21,7 @@ public class Winner : MonoBehaviour
         if (Greater > 0)
         {
             YouWin.GetComponent<Text>().enabled = true;
-            Greater
+            WinScore = Greater;
         }
         else
         {
