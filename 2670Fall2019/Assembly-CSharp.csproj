@@ -87,8 +87,6 @@
     <Compile Include="Assets\All\Scripts\MyScripts\PowerUp.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Score.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\SwitchScene.cs" />
-    <Compile Include="Assets\All\Scripts\MyScripts\unityAction.cs" />
-    <Compile Include="Assets\All\Scripts\MyScripts\unityEvent.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Weapon.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Winner.cs" />
     <Compile Include="Assets\All\Scripts\Spawn.cs" />
