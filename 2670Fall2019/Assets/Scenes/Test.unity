@@ -402,8 +402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b3f34fba82c2be41b5d38e8c84c40b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 1157968017329675569, guid: e0bea88454f0df14ebadf7bdaa2055d0, type: 3}
-  bulletInstant: {fileID: 432944490}
+  weapon: {fileID: 0}
 --- !u!114 &162825663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,7 +412,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 162825658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09bf534f41a48aa43a13b2da02e1c2b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 9adfa30f7b77d814eb0512a8d5747712, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
@@ -1436,10 +1435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c11e8c13fe62e0640aed25dec67559e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  youWin: {fileID: 806079318}
-  niceTry: {fileID: 1492689007}
-  greater: 25
-  Player: {fileID: 162825658}
 --- !u!65 &1211234788
 BoxCollider:
   m_ObjectHideFlags: 0
