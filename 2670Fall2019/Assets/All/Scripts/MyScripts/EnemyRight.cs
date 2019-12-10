@@ -5,13 +5,13 @@ using UnityEngine;
 public class EnemyRight : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    private void enemyMovement()
     {
         
     }
 
     // Update is called once per frame
-    void Update()
+    private void Flip()
     {
         
     }
