@@ -23,6 +23,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Flip()
     {
-        //If Statement
+        if (flip)
+        {
+            
+        }
+        else
+        {
+            
+        }
     }
 }
