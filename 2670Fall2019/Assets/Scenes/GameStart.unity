@@ -1460,8 +1460,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220181974}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.012422562, y: 0.8994, z: 15.749}
-  m_LocalScale: {x: 0.27635765, y: 1.794303, z: 0.46654275}
+  m_LocalPosition: {x: -0.0124, y: 0.8994, z: 17.9742}
+  m_LocalScale: {x: 0.27635765, y: 1.794303, z: 4.9169407}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -4274,6 +4274,7 @@ GameObject:
   - component: {fileID: 685964262}
   - component: {fileID: 685964261}
   - component: {fileID: 685964260}
+  - component: {fileID: 685964263}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -4354,6 +4355,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685964258}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &685964263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685964258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89b7012557bd87d4e8de1c4481bd42c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 896487084}
+  healthText: {fileID: 0}
+  healthValue: 5
+  overHealth: 0
+  restartButton: {fileID: 0}
+  restart: {fileID: 0}
+  menuButton: {fileID: 0}
+  menuText: {fileID: 0}
+  gameOver: {fileID: 0}
 --- !u!1001 &697161546
 PrefabInstance:
   m_ObjectHideFlags: 0
