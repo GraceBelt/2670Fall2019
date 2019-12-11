@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PowerUp : MonoBehaviour
 {
     public Text health;
-    public int Greater = 1;
+    public int Greater;
     public CharacterController Player;
 
     private void Text()

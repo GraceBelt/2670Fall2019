@@ -22,5 +22,6 @@ public class Score : MonoBehaviour
           value++;
           Destroy(gameObject);
           scoreText();
+          print("Score!");
      }
 }
