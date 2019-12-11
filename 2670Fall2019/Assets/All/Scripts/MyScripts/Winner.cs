@@ -12,6 +12,12 @@ public class Winner : MonoBehaviour
     public int Greater = 25;
     public int WinScore;
 
+    public Image restartButton;
+    public Text restart;
+    public Image menuButton;
+    public Text menuText;
+    
+
     void Update()
     {
         Score.text = "Score: " + WinScore;
@@ -32,5 +38,11 @@ public class Winner : MonoBehaviour
     {
         Update();
         WinGame();
+        restartButton.GetComponent<Image>().enabled = true;
+        restart.GetComponent<Text>().enabled = true;
+        menuButton.GetComponent<Image>().enabled = true;
+        menuText.GetComponent<Text>().enabled = true;
+        Destroy(Player.gameObject);
+        
     }
 }
