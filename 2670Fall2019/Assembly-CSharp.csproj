@@ -76,7 +76,6 @@
     <Compile Include="Assets\All\Scripts\IntData.cs" />
     <Compile Include="Assets\All\Scripts\MonoEventBehaviours.cs" />
     <Compile Include="Assets\All\Scripts\MouseEvents.cs" />
-    <Compile Include="Assets\All\Scripts\MyScripts\DestroyOBJ.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\EndGame.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\Enemy.cs" />
     <Compile Include="Assets\All\Scripts\MyScripts\EnemyRight.cs" />
