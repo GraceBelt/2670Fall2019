@@ -7,7 +7,7 @@ public class thirdTiming : MonoBehaviour
 {
     public Text timing;
     public Text gameOver;
-    private float runningOut = 100.0f;
+    private float runningOut = 30.0f;
     private bool setAction = true;
     
     public Image restartButton;
